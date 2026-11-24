@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "jsxImportSourceTypes": "@types/react",
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "imports": {
+    "react": "npm:react@^19.2.0",
+    "react/": "npm:/react@^19.2.0/",
+    "react-dom": "npm:react-dom@^19.2.0",
+    "react-dom/": "npm:/react-dom@^19.2.0/",
+    "@types/react": "npm:@types/react@^19.2.0",
+    "@types/react-dom": "npm:@types/react-dom@^19.2.0",
+    "vite": "npm:vite@^7.1.0",
+    "@vitejs/plugin-react": "npm:@vitejs/plugin-react@^5.0.0"
+  }
+}

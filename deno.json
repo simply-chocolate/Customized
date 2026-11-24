@@ -1,0 +1,14 @@
+{
+  "workspace": ["./web"],
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": "deno run --allow-net --watch server/main.ts",
+    "web": "deno run -A npm:vite --config ./web/vite.config.ts"
+  },
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@^17.1.3"
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}
